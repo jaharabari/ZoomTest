@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5AB68514118652001D96BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5AB68414118652001D96BB /* UIKit.framework */; };
+		9D5AB68714118652001D96BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5AB68614118652001D96BB /* Foundation.framework */; };
+		9D5AB68914118652001D96BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5AB68814118652001D96BB /* CoreGraphics.framework */; };
+		9D5AB68F14118652001D96BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5AB68D14118652001D96BB /* InfoPlist.strings */; };
+		9D5AB69214118652001D96BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB69114118652001D96BB /* main.m */; };
+		9D5AB69514118652001D96BB /* ZoomTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB69414118652001D96BB /* ZoomTestAppDelegate.m */; };
+		9D5AB69814118652001D96BB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5AB69614118652001D96BB /* MainWindow.xib */; };
+		9D5AB69B14118652001D96BB /* ZoomTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB69A14118652001D96BB /* ZoomTestViewController.m */; };
+		9D5AB69E14118652001D96BB /* ZoomTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5AB69C14118652001D96BB /* ZoomTestViewController.xib */; };
+		9D5AB6A5141187C5001D96BB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5AB6A4141187C5001D96BB /* test.png */; };
+		9D5AB6A81411882C001D96BB /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB6A71411882C001D96BB /* ImageScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D5AB68014118651001D96BB /* ZoomTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5AB68414118652001D96BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D5AB68614118652001D96BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D5AB68814118652001D96BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D5AB68C14118652001D96BB /* ZoomTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZoomTest-Info.plist"; sourceTree = "<group>"; };
+		9D5AB68E14118652001D96BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D5AB69014118652001D96BB /* ZoomTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZoomTest-Prefix.pch"; sourceTree = "<group>"; };
+		9D5AB69114118652001D96BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D5AB69314118652001D96BB /* ZoomTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomTestAppDelegate.h; sourceTree = "<group>"; };
+		9D5AB69414118652001D96BB /* ZoomTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomTestAppDelegate.m; sourceTree = "<group>"; };
+		9D5AB69714118652001D96BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9D5AB69914118652001D96BB /* ZoomTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomTestViewController.h; sourceTree = "<group>"; };
+		9D5AB69A14118652001D96BB /* ZoomTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomTestViewController.m; sourceTree = "<group>"; };
+		9D5AB69D14118652001D96BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZoomTestViewController.xib; sourceTree = "<group>"; };
+		9D5AB6A4141187C5001D96BB /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		9D5AB6A61411882C001D96BB /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		9D5AB6A71411882C001D96BB /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5AB67D14118651001D96BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5AB68514118652001D96BB /* UIKit.framework in Frameworks */,
+				9D5AB68714118652001D96BB /* Foundation.framework in Frameworks */,
+				9D5AB68914118652001D96BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D5AB67514118651001D96BB = {
+			isa = PBXGroup;
+			children = (
+				9D5AB68A14118652001D96BB /* ZoomTest */,
+				9D5AB68314118652001D96BB /* Frameworks */,
+				9D5AB68114118652001D96BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5AB68114118652001D96BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5AB68014118651001D96BB /* ZoomTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5AB68314118652001D96BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5AB68414118652001D96BB /* UIKit.framework */,
+				9D5AB68614118652001D96BB /* Foundation.framework */,
+				9D5AB68814118652001D96BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D5AB68A14118652001D96BB /* ZoomTest */ = {
+			isa = PBXGroup;
+			children = (
+				9D5AB6A61411882C001D96BB /* ImageScrollView.h */,
+				9D5AB6A71411882C001D96BB /* ImageScrollView.m */,
+				9D5AB6A4141187C5001D96BB /* test.png */,
+				9D5AB69314118652001D96BB /* ZoomTestAppDelegate.h */,
+				9D5AB69414118652001D96BB /* ZoomTestAppDelegate.m */,
+				9D5AB69614118652001D96BB /* MainWindow.xib */,
+				9D5AB69914118652001D96BB /* ZoomTestViewController.h */,
+				9D5AB69A14118652001D96BB /* ZoomTestViewController.m */,
+				9D5AB69C14118652001D96BB /* ZoomTestViewController.xib */,
+				9D5AB68B14118652001D96BB /* Supporting Files */,
+			);
+			path = ZoomTest;
+			sourceTree = "<group>";
+		};
+		9D5AB68B14118652001D96BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5AB68C14118652001D96BB /* ZoomTest-Info.plist */,
+				9D5AB68D14118652001D96BB /* InfoPlist.strings */,
+				9D5AB69014118652001D96BB /* ZoomTest-Prefix.pch */,
+				9D5AB69114118652001D96BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5AB67F14118651001D96BB /* ZoomTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5AB6A114118652001D96BB /* Build configuration list for PBXNativeTarget "ZoomTest" */;
+			buildPhases = (
+				9D5AB67C14118651001D96BB /* Sources */,
+				9D5AB67D14118651001D96BB /* Frameworks */,
+				9D5AB67E14118651001D96BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomTest;
+			productName = ZoomTest;
+			productReference = 9D5AB68014118651001D96BB /* ZoomTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D5AB67714118651001D96BB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9D5AB67A14118651001D96BB /* Build configuration list for PBXProject "ZoomTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D5AB67514118651001D96BB;
+			productRefGroup = 9D5AB68114118652001D96BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D5AB67F14118651001D96BB /* ZoomTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D5AB67E14118651001D96BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5AB68F14118652001D96BB /* InfoPlist.strings in Resources */,
+				9D5AB69814118652001D96BB /* MainWindow.xib in Resources */,
+				9D5AB69E14118652001D96BB /* ZoomTestViewController.xib in Resources */,
+				9D5AB6A5141187C5001D96BB /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D5AB67C14118651001D96BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5AB69214118652001D96BB /* main.m in Sources */,
+				9D5AB69514118652001D96BB /* ZoomTestAppDelegate.m in Sources */,
+				9D5AB69B14118652001D96BB /* ZoomTestViewController.m in Sources */,
+				9D5AB6A81411882C001D96BB /* ImageScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D5AB68D14118652001D96BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5AB68E14118652001D96BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D5AB69614118652001D96BB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5AB69714118652001D96BB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9D5AB69C14118652001D96BB /* ZoomTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5AB69D14118652001D96BB /* en */,
+			);
+			name = ZoomTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5AB69F14118652001D96BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D5AB6A014118652001D96BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9D5AB6A214118652001D96BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZoomTest/ZoomTest-Prefix.pch";
+				INFOPLIST_FILE = "ZoomTest/ZoomTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D5AB6A314118652001D96BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZoomTest/ZoomTest-Prefix.pch";
+				INFOPLIST_FILE = "ZoomTest/ZoomTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D5AB67A14118651001D96BB /* Build configuration list for PBXProject "ZoomTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5AB69F14118652001D96BB /* Debug */,
+				9D5AB6A014118652001D96BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5AB6A114118652001D96BB /* Build configuration list for PBXNativeTarget "ZoomTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5AB6A214118652001D96BB /* Debug */,
+				9D5AB6A314118652001D96BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D5AB67714118651001D96BB /* Project object */;
+}

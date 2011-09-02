@@ -1,0 +1,4 @@
+research
+xcuserdata
+.DS_Store
+*.pbxproj -crlf -diff -merge
